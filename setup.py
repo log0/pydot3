@@ -12,6 +12,7 @@ version = "1.0"
 
 config = dict(
     name = 'pydot3',
+    packages = ['pydot3'],
     version = version,
     description = 'Python 2 and Python 3 compatible interface to Graphviz\'s Dot',
     author = 'Eric Chio',
@@ -38,7 +39,6 @@ config = dict(
         'Programming Language :: Python :: 3.4',
         'Topic :: Scientific/Engineering :: Visualization',
         'Topic :: Software Development :: Libraries :: Python Modules'],
-    py_modules = ['pydot', 'dot_parser'],
     install_requires = ['pyparsing', 'setuptools'],
     data_files = [('.', ['LICENSE', 'README'])])
 
