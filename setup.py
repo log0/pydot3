@@ -8,7 +8,7 @@ import os
 os.environ['COPY_EXTENDED_ATTRIBUTES_DISABLE'] = 'true'
 os.environ['COPYFILE_DISABLE'] = 'true'
 
-version = "1.0.2"
+version = "1.0.3"
 
 config = dict(
     name = 'pydot3',
@@ -40,7 +40,7 @@ config = dict(
         'Topic :: Scientific/Engineering :: Visualization',
         'Topic :: Software Development :: Libraries :: Python Modules'],
     install_requires = ['pyparsing', 'setuptools'],
-    data_files = [('.', ['LICENSE', 'README'])])
+    data_files = [('.', ['LICENSE', 'README.md'])])
 
 
 if sys.version_info >= (3,):
