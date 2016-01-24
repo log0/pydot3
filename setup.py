@@ -8,7 +8,7 @@ import os
 os.environ['COPY_EXTENDED_ATTRIBUTES_DISABLE'] = 'true'
 os.environ['COPYFILE_DISABLE'] = 'true'
 
-version = "1.0.1"
+version = "1.0.2"
 
 config = dict(
     name = 'pydot3',
