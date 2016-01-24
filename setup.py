@@ -8,11 +8,11 @@ import os
 os.environ['COPY_EXTENDED_ATTRIBUTES_DISABLE'] = 'true'
 os.environ['COPYFILE_DISABLE'] = 'true'
 
-version = "1.0.5"
+version = "1.0.6"
 
 config = dict(
     name = 'pydot3',
-    packages = ['pydot3'],
+    packages = ['pydot'],
     version = version,
     description = 'Python 2 and Python 3 compatible interface to Graphviz\'s Dot',
     author = 'Eric Chio',

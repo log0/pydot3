@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: pydot3
+Version: 1.0.5
+Summary: Python 2 and Python 3 compatible interface to Graphviz's Dot
+Home-page: http://www.github.com/log0/pydot3/
+Author: Eric Chio
+Author-email: ckieric@gmail.com
+License: MIT
+Download-URL: https://github.com/log0/pydot3/archive/1.0.5.zip
+Description: UNKNOWN
+Keywords: graphviz dot graphs visualization pydot pydot2 pydot3
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
