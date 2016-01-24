@@ -5,6 +5,8 @@ pydot3
 
 Includes fixes from https://github.com/erocarrera/pydot, which is not compatible with Python 3.x for some reasons.
 
+Originally author by Michael Krause <michael@krause-software.de> with fixes from Ero Carrera <ero@dkbza.org>. I only fixed the places incompatible with Python3.
+
 Installation
 ------------
 

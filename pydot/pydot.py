@@ -19,7 +19,7 @@ Distributed under MIT license [http://opensource.org/licenses/mit-license.html].
 
 __revision__ = "$LastChangedRevision$"
 __author__ = 'Eric Chio'
-__version__ = '1.0.%d' % 29  # int( __revision__[21:-2] )
+__version__ = '1.0.7'
 __license__ = 'MIT'
 
 import os
@@ -31,8 +31,6 @@ try:
     import dot_parser
 except Exception, e:
     print "Couldn't import dot_parser, loading of dot files will not be possible."
-
-
 
 GRAPH_ATTRIBUTES = set( ['Damping', 'K', 'URL', 'aspect', 'bb', 'bgcolor',
     'center', 'charset', 'clusterrank', 'colorscheme', 'comment', 'compound',
