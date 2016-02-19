@@ -23,7 +23,7 @@ import codecs
 
 from pyparsing import __version__ as pyparsing_version
 
-from pyparsing import ( nestedExpr, Literal, CaselessLiteral, Word, Upcase, OneOrMore, ZeroOrMore,
+from pyparsing import ( nestedExpr, Literal, CaselessLiteral, Word, upcaseTokens, OneOrMore, ZeroOrMore,
     Forward, NotAny, delimitedList, oneOf, Group, Optional, Combine, alphas, nums,
     restOfLine, cStyleComment, nums, alphanums, printables, empty, quotedString,
     ParseException, ParseResults, CharsNotIn, dblQuotedString, QuotedString, ParserElement )
